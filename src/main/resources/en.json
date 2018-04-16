@@ -1,0 +1,61 @@
+{
+    "LABEL_LOGO":"WaveMaker",
+    "LABEL_FEATURE_UNAVAILABLE" : "Feature Unavailable",
+    "LABEL_EDITABLE": "Editable",
+    "LABEL_READONLY": "ReadOnly",
+    "MESSAGE_FEATURE_UNAVAILABLE" : "This feature is available only in the WaveMaker Enterprise. Find more information regarding the features on WaveMaker Enterprise at",
+    "LABEL_INDEX_PAGE_APP_LANGUAGE":"App language",
+    "MESSAGE_HELP_VARIABLE": {
+        "SPINNERCONTEXT": "This property specifies on which UI widget the spinner should show.",
+        "SPINNERMESSAGE": "The message to be displayed below the spinner."
+    },
+    "MESSAGE_HELP_DB_IMPORT_GENERATE_ENTITIES": "Reading & Generating Entities",
+    "MESSAGE_HELP_TUTORIAL_COMPLETE": "% complete",
+    "LABEL_VARIABLE_SERVICETYPE": {
+        "database": "Database CRUD",
+        "databaseapi": "Database APIs",
+        "web": "Web Service",
+        "java": "Java Service",
+        "security": "Security Service",
+        "custom": "Model",
+        "navigation": "Navigation",
+        "notification": "Notification",
+        "login": "Login",
+        "logout": "Logout",
+        "timer": "Timer",
+        "device": "Device",
+        "all": "All"
+    },
+    "LABEL_VARIABLE_PROPERTY": {
+        "wm.LiveVariable": {
+            "liveSource": "Database",
+            "type": "Table"
+        },
+        "wm.ServiceVariable": {
+            "operation": "Method"
+        },
+        "wm.WebSocketVariable": {
+            "startUpdate": "Connect on page load",
+            "dataUpdateStrategy": "On New Data"
+        },
+        "wm.NavigationVariable": {
+            "operation": "Navigation Target",
+            "pageName": "Page Name"
+        },
+        "wm.NotificationVariable": {
+            "operation": "Notification Type",
+            "onOk": "onOk",
+            "onCancel": "onCancel",
+            "onBeforeClose": "onBeforeClose",
+            "onClose": "onClose",
+            "onClick": "onClick",
+            "onHide": "onHide"
+        },
+        "wm.TimerVariable": {
+            "autoStart": "Trigger on page load",
+            "delay": "Trigger after a delay (milliseconds)",
+            "repeating": "Repeat after delay",
+            "onTimerFire": "onTimerFire"
+        }
+    }
+}
