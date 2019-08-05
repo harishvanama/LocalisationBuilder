@@ -1,6 +1,6 @@
 Different commands to be used
 
-mvn clean install -Dsource.path=src/main/resources/en.json -Dtarget.language=de -Dtarget.path=C:\Users\harishv\Desktop\de.json -Dregenerate=true
+mvn clean install -Dsource.path=src/main/resources/en.json -Dtarget.language=de -Dtarget.path=<Absolute path for target de.json> -Dregenerate=true
 
 mvn clean install -Dsource.path=<AblsotePath of en.json> -Dtarget.language=de -Dtarget.path=<Absolute path for target de.json> -Dregenerate=true
 
