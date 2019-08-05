@@ -2,13 +2,13 @@ Different commands to be used
 
 mvn clean install -Dsource.path=src/main/resources/en.json -Dtarget.language=de -Dtarget.path=C:\Users\harishv\Desktop\de.json -Dregenerate=true
 
-mvn clean install -Dsource.path=C:\Users\harishv\Desktop\en.json -Dtarget.language=de -Dtarget.path=C:\Users\harishv\Desktop\de.json -Dregenerate=true
+mvn clean install -Dsource.path=<AblsotePath of en.json> -Dtarget.language=de -Dtarget.path=<Absolute path for target de.json> -Dregenerate=true
 
-mvn clean install -Dsource.path=C:\Users\harishv\Desktop\en.json -Dtarget.language=de -Dtarget.path=C:\Users\harishv\Desktop\de.json
+mvn clean install -Dsource.path=<AblsotePath of en.json> -Dtarget.language=de -Dtarget.path=<Absolute path for target de.json>
 
-mvn clean install -Dsource.path=C:\Users\harishv\Desktop\en.json -Dtarget.language=de -Dregenerate=true
+mvn clean install -Dsource.path=<Absolute path of en.json> -Dtarget.language=de -Dregenerate=true
 
-mvn clean install -Dsource.path=C:\Users\harishv\Desktop\en.json -Dtarget.language=de
+mvn clean install -Dsource.path=<Absolute path of en.json> -Dtarget.language=de
 
 Sample localisation file en.json is available in resources path
 
